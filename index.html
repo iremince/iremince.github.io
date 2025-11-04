@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - İrem İnce | Veri Analisti</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">İrem İnce</div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-lang="nav-home">Ana Sayfa</a></li>
+                <li><a href="#about" data-lang="nav-about">Hakkımda</a></li>
+                <li><a href="#skills" data-lang="nav-skills">Yetenekler</a></li>
+                <li><a href="#projects" data-lang="nav-projects">Projeler</a></li>
+                <li><a href="#contact" data-lang="nav-contact">İletişim</a></li>
+                <li class="language-selector">
+                    <button class="lang-dropdown-btn">
+                        <span class="current-lang">🇹🇷 TR</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-dropdown-menu">
+                        <button class="lang-option" data-lang-code="tr">🇹🇷 Türkçe</button>
+                        <button class="lang-option" data-lang-code="en">🇬🇧 English</button>
+                        <button class="lang-option" data-lang-code="es">🇪🇸 Español</button>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title"><span data-lang="hero-greeting">Merhaba, Ben</span> <span class="highlight">İrem İnce</span></h1>
+                <h2 class="hero-subtitle" data-lang="hero-subtitle">Veri Analisti</h2>
+                <p class="hero-description" data-lang="hero-description">Küçük adımlar, büyük ilerlemeler.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-lang="hero-btn-projects">Projelerimi Gör</a>
+                    <a href="#contact" class="btn btn-outline" data-lang="hero-btn-contact">İletişime Geç</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/irem-ince-502881271/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/iremince" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:iremince7035@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-img">
+                        <img src="image/61c7a7c7-9830-425b-a168-44fac8688e4e.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-lang="section-about">Hakkımda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-lang="about-text1">Merhaba! Ben İrem İnce. Veri analitiği ve iş zekası alanında kendimi geliştiren bir analistim. Verileri yalnızca raporlamak değil, içgörüye dönüştürmek ve bu içgörülerle daha akıllı kararlar alabilmek beni motive ediyor. Şu anda kendi işimi kurma sürecindeyim ve bu süreçte veriyle düşünmeyi, karar süreçlerini şekillendirmeyi ve verimliliği artıran çözümler üretmeyi hedefliyorum</p>
+                    <p data-lang="about-text2">Python, SQL, Tableau ve Excel gibi araçlarla veri hikayeleri oluşturmayı seviyorum. Öğrenme ve üretme sürecinde her proje, kendimi ve işimi büyütmem için yeni bir fırsat benim için.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4 data-lang="info-education">Eğitim</h4>
+                                <p data-lang="info-education-detail">Yaşar Üniversitesi <br> Grafik tasarım</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4 data-lang="info-location">Konum</h4>
+                                <p data-lang="info-location-detail">Türkiye</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4 data-lang="info-focus">Yetkinlikler</h4>
+                                <p data-lang="info-focus-detail">Veri Analizi & Dashboard Tasarımı</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-lang="section-skills">Yetenekler & Araçlar</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Excel</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 40%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Pandas & NumPy</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 30%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Tableau</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 55%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-lang="section-projects">Projelerim</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-lang="project1-title">Maaş Analizi Genel Bakış</h3>
+                        <p data-lang="project1-desc">Kaggle’dan bir maaş veri seti indirdim ve Excel’de keşifsel bir analiz yaptım.
+                        Yaş dağılımını, maaş dağılımını, deneyim ile maaş arasındaki ilişkiyi ve cinsiyet ile eğitim seviyesine göre ortalama maaşları görselleştirdim.</p>
+                        <div class="project-tags">
+                            <span>Excel</span>
+
+                        </div>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7376980760358084608/" class="project-link" data-lang="project-link">Detaylar <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-lang="project2-title">Sipariş ve Üyelik Analizi-Case Study</h3>
+                        <p data-lang="project2-desc">Siparişler, ürünler ve üyelik bilgilerini içeren bir veri setini analiz ettim.
+                        İlk satın alınan ve en popüler ürünler, katılmadan önce toplam harcama ve farklı kurallar altında kazanılan ödül puanları gibi içgörüleri inceledim.
+                        Bu çalışma, SQL, veri toplama (agregasyon) ve veri yorumlama becerilerimi güçlendirmeme yardımcı oldu.</p>
+                        <div class="project-tags">
+                            <span>SQL</span>
+                        </div>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7378022616005013506/" class="project-link" data-lang="project-link">Detaylar <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-area"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-lang="project3-title">Uyku Sağlığı ve Yaşam Tarzı</h3>
+                        <p data-lang="project3-desc">Tableau ile uyku kalitesi, stres seviyesi ve yaşam tarzı faktörleri arasındaki ilişkileri analiz eden etkileşimli dashboard. Uyku alışkanlıklarının sağlığa etkisini görselleştirerek veri odaklı içgörüler sunar.</p>
+                        <div class="project-tags">
+                            <span>Tableau</span>
+                        </div>
+                        <a href="https://public.tableau.com/app/profile/irem.ince/viz/SleepHealthandLifestyle_17611306192660/Dashboard1" class="project-link" data-lang="project-link">Detaylar <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-lang="section-contact">İletişim</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-lang="contact-title">Benimle İletişime Geçin</h3>
+                    <p data-lang="contact-desc">Veri analizi projeleri, danışmanlık veya iş birliği fırsatları için benimle iletişime geçebilirsiniz!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>iremince7035@gmail.com</p>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/meorkkpn" method="POST">
+                    <input type="text" name="name" data-lang-placeholder="form-name" placeholder="Adınız" required>
+                    <input type="email" name="email" data-lang-placeholder="form-email" placeholder="Email Adresiniz" required>
+                    <textarea name="message" data-lang-placeholder="form-message" placeholder="Mesajınız" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary" data-lang="form-submit">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-lang="footer-text">&copy; 2025 İrem İnce. Tüm hakları saklıdır.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/irem-ince-502881271/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/iremince" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:iremince7035@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
