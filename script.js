@@ -16,7 +16,7 @@ const translations = {
         'hero-btn-projects': 'Projelerimi Gör',
         'hero-btn-contact': 'İletişime Geç',
         'section-about': 'Hakkımda',
-        'about-text1': 'Merhaba! Ben İrem İnce. Veri analitiği, iş zekâsı ve makine öğrenimi alanlarında kendimi geliştiren bir analistim. Verileri yalnızca raporlamanın ötesine geçerek, onları karar süreçlerini güçlendiren içgörülere ve uygulanabilir çözümlere dönüştürmeye odaklanıyorum.',
+        'about-text1': 'Merhaba! Ben İrem İnce. Veri analitiği, iş zekası ve makine öğrenimi alanlarında kendimi geliştiren bir analistim. Verileri yalnızca raporlamanın ötesine geçerek, onları karar süreçlerini güçlendiren içgörülere ve uygulanabilir çözümlere dönüştürmeye odaklanıyorum.',
         'about-text2': 'Python, SQL, Tableau ve Excel ile çalışırken; analitik bakış açımı derinleştiren, üretme kapasitemi artıran projeler geliştirmeyi önemsiyorum. Öğrendiğim her yeni yöntem ve teknoloji, gelecekte oluşturmak istediğim değerler için bir temel niteliğinde.',
         'info-education': 'Eğitim',
         'info-education-detail': 'Yaşar Üniversitesi Grafik Tasarım',
