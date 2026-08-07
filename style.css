@@ -478,8 +478,11 @@ section {
 /* Skills Section */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    /* Kartların aşırı büyümesini engeller, maksimum 320px genişlik verir */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 320px)); 
+    justify-content: center; /* Kartları ekranın ortasına hizalar */
+    gap: 1.5rem; /* Kartlar arasındaki boşluğu dengeler */
+    margin-top: 2rem;
 }
 
 .skill-card {
@@ -532,7 +535,8 @@ section {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 450px)); /* Kartın aşırı büyümesini engeller */
+    justify-content: center; /* Tek proje olduğunda ekranın tam ortasında durmasını sağlar */
     gap: 2rem;
 }
 
